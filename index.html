@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="scripts/scripts.js"></script>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Nice new calculator~</h1>
+    <div class="box" id="calculator">
+      <div class="display">
+        <input type="text" size="18" id="result" />
+      </div>
+      <div class="keys">
+        <p>
+          <input
+            type="button"
+            class="button backspace"
+            value="backspace"
+            onclick="backspace()"
+          />
+          <input
+            type="button"
+            class="button blue right"
+            value="/"
+            onkeydown="myFunction(event)"
+            onclick='dis("/")'
+          />
+        </p>
+        <p>
+          <input
+            type="button"
+            class="button black"
+            value="1"
+            onclick="dis('1')"
+            onkeydown="myFunction(event)"
+          />
+          <input
+            type="button"
+            class="button black"
+            value="2"
+            onkeydown="myFunction(event)"
+            onclick="dis('2')"
+          />
+          <input
+            type="button"
+            class="button black"
+            value="3"
+            onkeydown="myFunction(event)"
+            onclick="dis('3')"
+          />
+          <input
+            type="button"
+            class="button blue right"
+            value="*"
+            onkeydown="myFunction(event)"
+            onclick="dis('*')"
+          />
+        </p>
+        <p>
+          <input
+            type="button"
+            class="button black"
+            value="4"
+            onkeydown="myFunction(event)"
+            onclick="dis('4')"
+          />
+          <input
+            type="button"
+            class="button black"
+            value="5"
+            onkeydown="myFunction(event)"
+            onclick="dis('5')"
+          />
+          <input
+            type="button"
+            class="button black"
+            value="6"
+            onkeydown="myFunction(event)"
+            onclick="dis('6')"
+          />
+          <input
+            type="button"
+            class="button blue right"
+            value="-"
+            onkeydown="myFunction(event)"
+            onclick="dis('-')"
+          />
+        </p>
+        <p>
+          <input
+            type="button"
+            class="button black"
+            value="7"
+            onkeydown="myFunction(event)"
+            onclick="dis('7')"
+          />
+          <input
+            type="button"
+            class="button black"
+            value="8"
+            onkeydown="myFunction(event)"
+            onclick="dis('8')"
+          />
+          <input
+            type="button"
+            class="button black"
+            value="9"
+            onkeydown="myFunction(event)"
+            onclick="dis('9')"
+          />
+          <input
+            type="button"
+            class="button blue right"
+            value="+"
+            onclick="dis('+')"
+            onkeydown="myFunction(event)"
+          />
+        </p>
+        <p>
+          <input
+            type="button"
+            class="button black"
+            value="0"
+            onkeydown="myFunction(event)"
+            onclick="dis('0')"
+          />
+          <input
+            type="button"
+            class="button black"
+            value="."
+            onkeydown="myFunction(event)"
+            onclick="dis('.')"
+          />
+          <input
+            type="button"
+            class="button black"
+            value="C"
+            onclick="ClearFields();"
+          />
+          <input
+            type="button"
+            class="button lightblue right"
+            value="="
+            onclick="equal()"
+          />
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

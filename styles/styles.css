@@ -1,0 +1,87 @@
+.box {
+  background-color: rgba(22, 22, 22, 0.3);
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.2);
+  border-width: 1px;
+  height: 380px;
+  width: 240px;
+  border-radius: 10px;
+  position: relative;
+  top: 80px;
+  margin: auto;
+  box-shadow: 10px 8px 15px rgb(166, 185, 192);
+}
+.display {
+  background-color: transparent;
+  width: 215px;
+  position: relative;
+  left: 15px;
+  top: 20px;
+  height: 50px;
+}
+.display input {
+  border-radius: 5px;
+  border: 1px solid;
+  outline: none;
+  position: relative;
+  height: 35px;
+  color: white;
+  background-color: rgba(95, 150, 253, 0.768);
+  font-size: 18px;
+  text-align: right;
+}
+.keys {
+  position: relative;
+  top: 15px;
+}
+.button {
+  width: 45px;
+  height: 50px;
+  border: none;
+  border-radius: 8px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+.left {
+  float: left;
+  margin-left: 5px;
+}
+.right {
+  float: right;
+  margin-right: 5px;
+}
+.backspace {
+  width: 160px;
+}
+h1 {
+  margin-top: 30px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.button.blue {
+  color: black;
+  border: 1px solid;
+  border-color: rgba(255, 255, 255, 0.468);
+  background-color: rgba(172, 200, 252, 0.619);
+}
+.button.lightblue {
+  color: white;
+  background-color: rgba(95, 150, 253, 0.768);
+}
+.button:hover {
+  background-color: rgb(242, 245, 253);
+}
+.button.lightblue:hover {
+  background-color: rgba(95, 150, 253, 1);
+}
+.button.blue:hover {
+  background-color: rgba(172, 200, 252, 1);
+}
+p {
+  margin: 8px;
+  line-height: 10px;
+}
+.display:active {
+  border-color: white;
+}
